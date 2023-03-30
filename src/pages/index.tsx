@@ -21,7 +21,13 @@ const Index = () => {
             // transition={{ delay: 1, duration: 1 }}
             className="relative z-[10] shadow-md"
           >
-            <Image src={"/card.png"} alt={"card"} width={300} height={200} />
+            <Image
+              src={"/card.png"}
+              alt={"card"}
+              width={300}
+              height={200}
+              priority={true}
+            />
           </motion.div>
           <motion.div
             style={{

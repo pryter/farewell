@@ -90,7 +90,13 @@ const Page = ({ id }: any) => {
                 transition={{ delay: 2.7, duration: 0.5 }}
                 className="absolute h-full w-full bg-amber-50 bg-opacity-40 shadow-xl"
               />
-              <Image src={"/card.png"} alt={"card"} width={300} height={200} />
+              <Image
+                src={"/card.png"}
+                alt={"card"}
+                width={300}
+                height={200}
+                priority={true}
+              />
             </motion.div>
           </motion.div>
           <motion.div
