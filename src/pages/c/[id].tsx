@@ -199,7 +199,7 @@ const Page = ({ id }: any) => {
         </motion.div>
       </motion.div>
       <motion.div
-        initial={{ y: 120, opacity: 0 }}
+        initial={{ y: 94, opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 6 + 0.62, duration: 1.2 }}
         className="absolute bottom-[200px] z-[13] "
