@@ -140,9 +140,10 @@ const Page = ({ id }: any) => {
           <Image
             src={`/${id}/1.jpg`}
             className="max-h-[300px] rounded-md object-cover"
-            alt={"carsd"}
+            alt={"pic-1"}
             width={200}
             height={120}
+            priority={true}
           />
         </motion.div>
       </motion.div>
@@ -166,9 +167,10 @@ const Page = ({ id }: any) => {
           <Image
             src={`/${id}/2.jpg`}
             className="max-h-[300px] rounded-md object-cover"
-            alt={"carsd"}
+            alt={"pic-2"}
             width={200}
             height={120}
+            priority={true}
           />
         </motion.div>
       </motion.div>
@@ -192,9 +194,10 @@ const Page = ({ id }: any) => {
           <Image
             src={`/${id}/3.jpg`}
             className="max-h-[300px] rounded-md object-cover"
-            alt={"carsd"}
+            alt={"pic-3"}
             width={200}
             height={120}
+            priority={true}
           />
         </motion.div>
       </motion.div>
